@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>synth portfolio homepage</title>
+  <link rel="stylesheet" href="synth.css">
+  <link href="https://googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="synthlogo.jpg" alt="synth" class="img">
+    </div>
+
+    <nav class="navbar">
+     <ul class="ul" id="ul">
+      <li><button class="Btn">Work</button></li>
+      <li><button class="Btn">Services</button></li>
+      <li><button class="Btn">About</button></li>
+      <li><button class="Btn">Contact</button></li>
+     </ul>
+    </nav>
+     <button class="btn"><a>Let's talk!</a></button>
+<div class="hambuger" onclick="toggleMenu()" >&#9776;</div>
+  </header>
+  <section class="hero">
+    <div>
+      <h1 class="herobigtext"> I design digital <br>products that<br> people love</h1>
+      <p class="herobigtext2">I'm a Frontend Developer and crafting performant who designs user centered interfaces <br>that merge design and code.</p>
+    </div>
+    <div>
+      <button class="herobtn"><a>Veiw my work &it;>&gt;</a></button>
+      <button class="herobtnswapped"><a>About me</a></button>
+    </div>
+  </section>
+  <center><h2 class="carddivh2">Selected work</h2></center>
+  <div class="carddiv">
+<div class="cardanimex">
+  <div class="cardimage">
+    <img src="Animex.png" alt="Animex" class="cardimageimg">
+  </div>
+ <h3> Animex</h3>
+ <p class="P">Product design . Web app . 2025</p>
+</div>
+
+
+<div class="card">
+  <div class="cardimage">
+    <img src="Synth.png" alt="Animex" class="cardimageimg">
+  </div>
+ <h3> Synth</h3>
+ <p class="P">Product design . Web app . 2026</p>
+</div>
+
+<div class="cardechonet">
+  <div class="cardimage">
+    <img src="Echonet.png" alt="Animex" class="cardimageimg">
+  </div>
+ <h3> Echonet</h3>
+ <p class="P">Product design . Web app . 2024</p>
+</div>
+<footer class="footer">
+  <div><p class="footerp">2025 SYNTH - All rights reserved</p></div>
+  <div class="synthsocials">
+  <a  class="socialsa" href="">Twitter</a>
+  <a  class="socialsa" href="">Linkedin</a>
+  <a class="socialsa" href="">Email</a>
+  </div>
+</footer>
+  <script>
+    function toggleMenu(){
+      document.getElementById('ul').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
